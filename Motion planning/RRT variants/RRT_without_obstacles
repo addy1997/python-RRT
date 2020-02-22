@@ -1,0 +1,118 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "pygame 2.0.0.dev4 (SDL 2.0.10, python 3.7.5)\n",
+      "Hello from the pygame community. https://www.pygame.org/contribute.html\n"
+     ]
+    }
+   ],
+   "source": [
+    "import sys, random, math, pygame\n",
+    "from pygame.locals import *\n",
+    "from math import sqrt,cos,sin,atan2\n",
+    "\n",
+    "#constants\n",
+    "X_dimension= 640\n",
+    "Y_dimension = 480\n",
+    "Window_Size = [X_dimension,Y_dimension]\n",
+    "EPS = 7.0\n",
+    "Max_Nodes = 70000\n",
+    "\n",
+    "def calculate_distance(x,y):\n",
+    "    return sqrt((x[0]-y[0])*(x[0]-y[0])+(x[1]-y[1])*(x[1]-y[1]))\n",
+    "\n",
+    "def Distance_between_nodes(x,y):\n",
+    "    if calculate_distance(x,y) < EPS:\n",
+    "        return y\n",
+    "    else:\n",
+    "        theta = atan2(y[1]-x[1],y[0]-x[0])\n",
+    "        return x[0] + EPS*cos(theta), x[1] + EPS*sin(theta)\n",
+    "\n",
+    "def StartGame():\n",
+    "    #initialize and prepare screen\n",
+    "    pygame.init()\n",
+    "    screen = pygame.display.set_mode(Window_Size)\n",
+    "    pygame.display.set_caption('RRT Adwait')\n",
+    "    white = 255, 240, 200\n",
+    "    black = 20, 20, 40\n",
+    "    screen.fill(black)\n",
+    "\n",
+    "    nodes = []\n",
+    "\n",
+    "    nodes.append((X_dimension/2.0,Y_dimension/2.0)) \n",
+    "    #nodes.append((0.0,0.0)) \n",
+    "    \n",
+    "    for i in range(Max_Nodes):\n",
+    "        rand = random.random()*640.0, random.random()*480.0\n",
+    "        nn = nodes[0]\n",
+    "    for p in nodes:\n",
+    "        if calculate_distance(p,rand) < calculate_distance(nn,rand):\n",
+    "            nn = p\n",
+    "            newnode = Distance_between_nodes(nn,rand)\n",
+    "            nodes.append(newnode)\n",
+    "            pygame.draw.line(screen,white,nn,newnode)\n",
+    "            pygame.display.update()\n",
+    "        #print i, \"    \", nodes\n",
+    "\n",
+    "    for e in pygame.event.get():\n",
+    "\t    if e.type == QUIT or (e.type == KEYUP and e.key == K_ESCAPE):\n",
+    "\t        sys.exit(\"Leaving because you requested it.\")\n",
+    "\t\n",
+    "\n",
+    "# if python says run, then we should run\n",
+    "if __name__ == '__main__':\n",
+    "    StartGame()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 1
+}
