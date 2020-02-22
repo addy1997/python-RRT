@@ -1,1 +1,1 @@
-# Internship-HTIC
+# Internship-HTIC-IIT-Madras
