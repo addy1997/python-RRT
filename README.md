@@ -1,6 +1,5 @@
-*borrowed from https://github.com/Ly0n/awesome-robotic-tooling
 
-# Awesome Robotic Tooling [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Some useful libraries for Robotics[![(https://awesome.re/badge.svg)](https://awesome.re)
 
 Just a bunch of powerful robotic resources and tools for professional robotic development with ROS in C++ and Python.
 
