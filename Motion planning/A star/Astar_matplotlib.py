@@ -1,8 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
+Author - Adwait P Naik
+Created on 13th February
 
 #packages to import
 from __future__ import print_function, division
