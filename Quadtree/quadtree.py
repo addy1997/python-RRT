@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[23]:
+Author - Adwait P Naik
 
 
 from quadtree1 import Rectangle, Quadtree, Point
