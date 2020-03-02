@@ -82,6 +82,20 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 
 ![RRT star FN](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT%20Finite%20Node.png)
 
+### RRT with B-spline and node pruning
+<ul>
+<b>Rapidly-exploring Random Tree with B-spline and Node pruning</b>
+
+![RRT-Bspline and Pruning](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT-pruning1.png)
+
+![RRT-Bspline and Pruning](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT-pruning2.png)
+
+![RRT-Bspline and Pruning](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT-pruning3.png)
+
+
+
+
+
 
 
 
