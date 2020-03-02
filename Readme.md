@@ -92,12 +92,21 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 
 ![RRT-Bspline and Pruning](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT-pruning3.png)
 
-### RRT-bidirectional with manhattan distance
+### RRT-bidirectional
 <ul>
 <b> Rapidly-exploring Random Tree bidirectional</b>
 <li> In this variant the tree is made to grow from the start node and the goal node as well until it meets at a particular point</li>
 
 ![RRT-bidirectional](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT%20connect%20manhattan.png)
+
+### RRT-bidirectional with Manhattan distance
+<ul>
+<li>The manhattan distance concept is based on the <a href = "https://en.wikipedia.org/wiki/Taxicab_geometry">Taxicab geometry</a></li>
+  
+![RRT-bidirectional](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/Screenshot%202020-03-02%20at%2010.09.56%20PM.png)
+
+![RRT-bidirectional](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/Screenshot%202020-03-02%20at%2010.10.09%20PM.png)
+
 
 ### Astar Algorithm
 <ul>
