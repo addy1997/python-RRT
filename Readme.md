@@ -102,7 +102,10 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 ### Astar Algorithm
 <ul>
 <b>Astar Algorithm</b>
-<li>
+  
+![Astar](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/A%20star/Screenshot%202020-02-21%20at%2010.58.12%20AM.png)
+</ul>
+  
 
 
 
