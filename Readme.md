@@ -61,6 +61,4 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 
 </ul>
 
-![RRT*](Motion planning/RRT variants/Screenshots/RRT star with obstacles 1.png)
-
-![RRT*](Motion planning/RRT variants/Screenshots/RRT star with obstacles2.png)
+![RRT*](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT%20star%20with%20obstacles2.png)
