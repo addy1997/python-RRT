@@ -50,15 +50,20 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 <li> Space complexity of RRT is O(n). In other words it has a linear space complexity which means that if the search space increases the iterations to find an optimal path will also increase subsequently. </li>
 </ul>
 
-![RRT](Motion planning/RRT variants/Screenshots/RRT with obstacles.png)
+![RRT](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT%20with%20obstacles.png)
 
 ### RRT-star
 <ul>
-<b> Rapidly-exploring Random Tree </b>
-<li> Implemented RRT-star algorithm using pygame. </li>
-<li> RRT* unlike RRT has a slightly different strategy for finding the nearest node which makes it computationally more efficient than RRT.<li>
+<b> Rapidly-exploring Random Tree star </b>
+<li> Implemented RRT-star algorithm using pygame.</li>
+<li> RRT* unlike RRT has a slightly different strategy for finding the nearest node which makes it computationally more efficient than RRT.</li>
 <li> RRT* takes less iterations to find the optimal path as compares to RRT.</li>RRT* is also asymptotically optimal like RRT.</li>
+
+<li> <b>disadvantages - </b> In RRT-star, each time the graph is constructed from scratch which makes it inefficient for finding paths in larger space like RRT.
+<li> Space and Time complexity of RRT is O(logn) and O(nlogn). In other words it has a linear space complexity which means that if the search space increases the iterations to find an optimal path will also increase subsequently. </li>
+</ul>
 
 </ul>
 
 ![RRT*](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT%20star%20with%20obstacles2.png)
+
