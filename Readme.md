@@ -11,7 +11,7 @@ These algorithms have a variety of applications ranging from protein folding to 
 <b> Developers: </b> Adwait P Naik <br>
 <b> Guide: </b> Mr. Shyam A, Robotics Engineer, HTIC, IIT-Madras<br>
 <b> Project: <b> Motion Planning for UR5 robotic Arm<br>
-<b> Duration: <b> November 2019 - February 2020 <br>
+<b> Duration:<b> November 2019 - February 2020 <br>
 
 ## Problem Statement
 
@@ -54,10 +54,10 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 
 ### RRT-star
 <ul>
-<b> Rapidly-exploring Random Tree star </b>
-<li> Implemented RRT-star algorithm using pygame.</li>
-<li> RRT* unlike RRT has a slightly different strategy for finding the nearest node which makes it computationally more efficient than RRT.</li>
-<li> RRT* takes less iterations to find the optimal path as compares to RRT.</li>RRT* is also asymptotically optimal like RRT.</li>
+<b>Rapidly-exploring Random Tree star </b>
+<li>Implemented RRT-star algorithm using pygame.</li>
+<li>RRT* unlike RRT has a slightly different strategy for finding the nearest node which makes it computationally more efficient than RRT.</li>
+<li>RRT* takes less iterations to find the optimal path as compares to RRT.</li>RRT* is also asymptotically optimal like RRT.</li>
 
 <li> <b>disadvantages - </b> In RRT-star, each time the graph is constructed from scratch which makes it inefficient for finding paths in larger space like RRT.
 <li> Space and Time complexity of RRT is O(logn) and O(nlogn). In other words it has a linear space complexity which means that if the search space increases the iterations to find an optimal path will also increase subsequently. </li>
@@ -66,4 +66,23 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 </ul>
 
 ![RRT*](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT%20star%20with%20obstacles2.png)
+
+### RRT-star FN
+<ul>
+<b>Rapidly-exploring Random Tree star Fixed Nodes </b>
+<li>Implemented RRT-star algorithm using pygame.</li>
+<li>Here we have created circular obstacles to test for the collision free path.</li>
+<li>This is the modified version of RRT star probabilistically complete in nature. </li>
+<li>It grows the tree till the count reaches fixed amount of nodes and then optimizes the tree further by removing the weaker node by adding a node with high probability to converge an efficient path.</li>
+  
+<li> Link to the research paper <a href = "https://www.researchgate.net/publication/261271325_Rapidly-exploring_random_tree_based_memory_efficient_motion_planning/download" > Research paper</a></li>
+  
+</ul>
+
+![RRT star FN](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/RRT%20variants/Screenshots/RRT%20Finite%20Node.png)
+
+
+
+
+
 
