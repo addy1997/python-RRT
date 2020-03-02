@@ -61,7 +61,8 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 
 <li> <b>disadvantages - </b> In RRT-star, each time the graph is constructed from scratch which makes it inefficient for finding paths in larger space like RRT.
 <li> Space and Time complexity of RRT is O(logn) and O(nlogn). In other words it has a linear space complexity which means that if the search space increases the iterations to find an optimal path will also increase subsequently. </li>
-</ul>
+<li> Link to the research paper <a href = "https://link.springer.com/chapter/10.1007/978-3-319-16841-8_7" > Research paper</a></li>
+  
 
 </ul>
 
