@@ -132,6 +132,19 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 
 ![creating objects in rviz](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/Screenshot%202019-09-25%20at%202.51.00%20PM.png)
 
+</ul>
+
+<b> Robotic arm trajectory and inverse kinematics </b>
+
+![UR5](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/Simulation-of-UR-10-robot-in-Gazebo-simulator.png)
+
+
+![UR5](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/43643941-31346fb8-972d-11e8-91d8-b48f7.png)
+
+
+![UR5](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/56207743-097e7780-603f-11e9-8461-b4d353e21496.png)
+
+
 
 
 
