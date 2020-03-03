@@ -144,7 +144,27 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 
 ![UR5](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/56207743-097e7780-603f-11e9-8461-b4d353e21496.png)
 
+</ul>
 
+### Quadtree 
+<ul>
+<b> Quadtree using matplotlib </b>
+<li> Quadtree is a data structure used to divide the configuration space recursively into smaller segments. </li>
+![Quadtree](https://github.com/addy1997/Internship-HTIC-IIT-Madras/blob/master/screenshots/Screenshot%202019-12-28%20at%203.34.58%20PM.png)
+  
+![Quadtree](https://github.com/addy1997/Internship-HTIC-IIT-Madras/blob/master/screenshots/Screenshot%202019-12-28%20at%203.35.10%20PM.png)
+
+![Quadtree](https://github.com/addy1997/Internship-HTIC-IIT-Madras/blob/master/screenshots/Screenshot%202019-12-28%20at%203.35.23%20PM.png)
+  
+![Quadtree](https://github.com/addy1997/Internship-HTIC-IIT-Madras/blob/master/screenshots/Screenshot%202019-12-28%20at%203.38.01%20PM.png)
+
+![Quadtree](https://github.com/addy1997/Internship-HTIC-IIT-Madras/blob/master/screenshots/Screenshot%202019-12-28%20at%203.38.27%20PM.png)
+
+![Quadtree](https://github.com/addy1997/Internship-HTIC-IIT-Madras/blob/master/screenshots/Screenshot%202019-12-28%20at%203.39.13%20PM.png)
+
+![Quadtree](https://github.com/addy1997/Internship-HTIC-IIT-Madras/blob/master/screenshots/Screenshot%202019-12-28%20at%203.39.34%20PM.png)
+
+</ul>
 
 
 
