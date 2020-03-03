@@ -118,6 +118,20 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 ![Astar](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/A%20star/Screenshot%202020-02-21%20at%2010.58.12%20AM.png)
 
   
+### ROS exercises
+<ul>
+<b> Please note that these are random exercises to which the source code can be found at <a href = "https://github.com/addy1997/Internship-HTIC/tree/master/ROS%20codes"> Ros-codes </a> </b>
+  
+![creating objects in rviz](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/Screenshot%202019-09-25%20at%202.45.28%20PM.png)
+
+![creating objects in rviz](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/Screenshot%202019-09-25%20at%202.46.30%20PM.png)
+
+![creating objects in rviz](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/Screenshot%202019-09-29%20at%201.03.28%20PM.png)
+
+![creating objects in rviz](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/Screenshot%202019-09-29%20at%201.03.41%20PM.png)
+
+![creating objects in rviz](https://github.com/addy1997/Internship-HTIC/blob/master/screenshots/Screenshot%202019-09-25%20at%202.51.00%20PM.png)
+
 
 
 
