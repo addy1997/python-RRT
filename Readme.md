@@ -111,9 +111,12 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 ### Astar Algorithm
 <ul>
 <b>Astar Algorithm</b>
-  
-![Astar](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/A%20star/Screenshot%202020-02-21%20at%2010.58.12%20AM.png)
+<li> Astar is an algorithm based on <b> graph traversal and path search</b> used in travel-routing systems and path finding</li>
+<li> It is based o heuristic approach governed by equation f(n) = g(n) + h(n). The estimation is done on the basis of cost of the path and cost to expand the nodes in particular direction.</li>
 </ul>
+
+![Astar](https://github.com/addy1997/Internship-HTIC/blob/master/Motion%20planning/A%20star/Screenshot%202020-02-21%20at%2010.58.12%20AM.png)
+
   
 
 
