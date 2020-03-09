@@ -147,6 +147,7 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 </ul>
 
 ### Quadtree 
+
 <ul>
 <b> Quadtree using matplotlib </b>
 <li> Quadtree is a data structure used to divide the configuration space recursively into smaller segments. </li>
