@@ -29,7 +29,7 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 
 <ul>
 <li> <b> for animation</b> - Pygame</li>
-<li> <b> for calculations</b> - numpy, itertools etc<li>
+<li> <b> for calculations</b> - numpy, itertools etc</li>
 </ul>
 
 # Running requirements
@@ -166,7 +166,7 @@ During accuracy testing & TCP calibration we observed that the our UR5 robot aft
 
 ![Quadtree](https://github.com/addy1997/Internship-HTIC-IIT-Madras/blob/master/screenshots/Screenshot%202019-12-28%20at%203.39.34%20PM.png)
 
-</ul>
+
 
 
 
