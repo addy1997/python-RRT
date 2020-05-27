@@ -10,7 +10,7 @@ These algorithms have a variety of applications ranging from protein folding to 
 
 <br>
 <b> Developers: </b> Adwait P Naik <br>
-<b> Guide: </b> Mr. Shyam A, Robotics Engineer, HTIC, IIT-Madras<br>
+<b> Guide: </b> Mr. Manojkumar L @ HTIC, IIT-Madras<br>
 <b> Project: </b> Motion Planning for UR5 robotic Arm<br>
 <b> Duration:</b> November 2019 - February 2020 <br>
 
