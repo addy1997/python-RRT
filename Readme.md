@@ -1,4 +1,4 @@
-## python-RRT
+![logo](https://github.com/addy1997/python-RRT/blob/master/Screenshot%202020-06-29%20at%208.07.23%20PM.png)
 
 ### This repository contains the sampling based motion planning algorithms like RRT(Rapidly exploring Random Tree) and PRM(Probabilistic Roadmap) in 2D configuration space with pygame.
 
