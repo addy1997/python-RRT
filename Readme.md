@@ -1,5 +1,10 @@
 ![logo](https://github.com/addy1997/python-RRT/blob/master/Screenshot%202020-06-29%20at%208.07.23%20PM.png)
 
+-----------------------------------------------------------------------------------------------------------
+
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)  [![Build Status](https://ci.appveyor.com/api/projects/status/8e784doc5sye7c41?svg=true)](https://ci.appveyor.com/project/addy1997/python-RRT)  [![Stars](https://img.shields.io/github/stars/addy1997/python-RRT.svg?style=flat&label=Star&maxAge=86400)](STARS) [![Contributions](https://img.shields.io/github/commit-activity/m/addy1997/python-RRT.svg?color=%09%2346c018)](https://github.com/addy1997/python-RRT/graphs/commit-activity)   [![Lines Of Code](https://tokei.rs/b1/github/addy1997/python-RRT?category=code)](https://github.com/addy1997/python-RRT)  [![Total alerts](https://img.shields.io/lgtm/alerts/g/addy1997/python-RRT.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/addy1997/python-RRT/alerts/)   [![Code](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
+
 ### This repository contains the sampling based motion planning algorithms like RRT(Rapidly exploring Random Tree) and PRM(Probabilistic Roadmap) in 2D configuration space with pygame.
 
 These algorithms are part of my project at HTIC, IIT-Madras during my research internship.
